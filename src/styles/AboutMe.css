@@ -1,0 +1,26 @@
+.contenedor-general-about-me {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor-general-about-me img {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+}
+
+.texto-about-me{
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-about-me .titulo-about-me {
+    margin-bottom: 2vh;
+    align-self: start;
+}
+
+.zona-de-contacto {
+    list-style: none;
+    display: flex;
+}

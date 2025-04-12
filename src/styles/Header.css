@@ -1,0 +1,16 @@
+.header .nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+
+.header .nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header .nav ul li {
+    list-style: none;
+}
