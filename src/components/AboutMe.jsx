@@ -1,5 +1,11 @@
 import '../styles/AboutMe.css'
-import githubIcon from '../assets/github-logo.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFile } from '@fortawesome/free-solid-svg-icons';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+
 
 const AboutMe = () => {
     return (
@@ -19,7 +25,21 @@ const AboutMe = () => {
             </div>
             
             <ul className="zona-de-contacto">
-                <li><a href=""><img src={githubIcon} alt="GitHub"/></a></li>
+                <li><a href="https://github.com/NicoGGomez" target='_blank'>
+                    <FontAwesomeIcon title='GitHub' className='icon  github-icon' icon={faGithub} size="3x" />
+                </a></li>
+                <li><a href="https://www.linkedin.com/in/nicolas-valentin-gomez-7389a824a/" target='_blank'>
+                    <FontAwesomeIcon title='Linkedin' className='icon linkedin-icon' icon={faLinkedin} size="3x" />
+                </a></li>
+                <li><a href="https://www.instagram.com/nicoogomez.__/" target='_blank'>
+                    <FontAwesomeIcon title='Instagram' className='icon  instagram-icon' icon={faInstagram} size="3x" />
+                </a></li>
+                <li><a href="https://wa.me/5492494494850" target='_blank'>
+                    <FontAwesomeIcon title='WhatsApp' className='icon  whatsapp-icon' icon={faWhatsapp} size="3x" />
+                </a></li>
+                <li><a href="https://drive.google.com/file/d/1eQQ-HUVhi-GmS064RowK5GPLa0GUrH3i/view?usp=sharing" target='_blank'>
+                    <FontAwesomeIcon title='CV' className='icon cv-icon' icon={faFile} size="3x" />
+                </a></li>
             </ul>
 
             </div>

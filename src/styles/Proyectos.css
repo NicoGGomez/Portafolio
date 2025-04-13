@@ -1,0 +1,12 @@
+.contenedor-principal-proyectos {
+    margin-top: 10vh;
+}
+
+.contenedor-titulo {
+    margin-bottom: 10vh;
+}
+
+.contenedor-proyectos {
+    display: flex;
+    justify-content: space-around;
+}

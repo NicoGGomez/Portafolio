@@ -7,10 +7,11 @@
     width: 30%;
     height: 30%;
     border-radius: 50%;
+    margin-right: 5vh;
 }
 
 .texto-about-me{
-    width: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -21,6 +22,16 @@
 }
 
 .zona-de-contacto {
+    width: 100%;
+    height: 100%;
     list-style: none;
     display: flex;
+    justify-content: space-around;
+    margin: 6vh 0 2vh 0;
+    align-self: flex-end;
+}
+
+.zona-de-contacto .icon {
+    color: #fff;
+    width: 5vh;
 }
