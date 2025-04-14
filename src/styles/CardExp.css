@@ -1,0 +1,14 @@
+.contenedor-card-exp {
+    background-color: var(--hover-bg);
+    padding: 2vh;
+    border-radius: 1vh;
+}
+
+.contenedor-card-exp .contenedor-info {
+    display: flex;
+    text-align: left;
+}
+
+.contenedor-card-exp .contenedor-info h3  {
+    margin-bottom: 1vh;
+}

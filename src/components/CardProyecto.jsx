@@ -2,7 +2,7 @@ import '../styles/CardProyecto.css'
 
 const CardProyecto = ({img, nombre, descripcion, lenguajes}) => {
     return (
-        <div className="card-proyecto">
+        <div className="contenedor card-proyecto">
             <div className="contenedor-info">
                 <div className="info">
                     <img src={img} alt={nombre} className="card-img" />
@@ -11,7 +11,7 @@ const CardProyecto = ({img, nombre, descripcion, lenguajes}) => {
                 </div>
                 <div className="contenedor-lenguajes">
                 {Array.isArray(lenguajes) && lenguajes.map((lenguaje, index) => (
-                <button className='button' key={index}>{lenguaje}</button>
+                <button className='button' key={index}>{lenguaje}</button >
                 ))}
                 </div>
             </div>

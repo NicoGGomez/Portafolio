@@ -4,10 +4,10 @@ import CardEducacion from './CardEducacion'
 const Educacion = () => {
     return (
         <>
-        <div className="contenedor-principal-proyectos">
+        <div className="contenedor contenedor-principal-proyectos">
 
                 <div className="contenedor-titulo">
-                    <h2>Eduacacion</h2>
+                    <h2>Educación</h2>
                 </div>
 
                 <div className="contenedor-card">
@@ -29,7 +29,7 @@ const Educacion = () => {
                 <CardEducacion 
                 className='card'
                 nombreInstitucion='Municipio de tandil' 
-                titulo='Introduccion a la robotica' 
+                titulo='Introducción a la Robótica' 
                 anio='2024 - 2025' 
                 />
 
