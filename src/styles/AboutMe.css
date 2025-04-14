@@ -10,10 +10,16 @@
     margin-right: 5vh;
 }
 
+.texto-about-me h1{
+    color: #fff;
+}
+
 .texto-about-me{
+    margin-top: 4vh;
     width: 100%;
     display: flex;
     flex-direction: column;
+    color: #cccccc;
 }
 
 .texto-about-me .titulo-about-me {
@@ -34,4 +40,10 @@
 .zona-de-contacto .icon {
     color: #fff;
     width: 5vh;
+    transition: .3s;
+}
+
+.zona-de-contacto .icon:hover {
+    color: #ff4444;
+    transition: .3s;
 }

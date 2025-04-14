@@ -1,0 +1,14 @@
+.contenedor-card-educacion {
+    width: 50vh;
+    padding: 3vh;
+    background-color: #181818;
+    margin: 0 1vh 0 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 1vh;
+}
+
+.contenedor-card-educacion .contenedor-info-educacion {
+    margin-bottom: 2vh;
+}

@@ -11,21 +11,25 @@ const Proyectos = () => {
                 </div>
 
                 <div className="contenedor-proyectos">
+                    
                     <CardProyecto 
                     img='../../public/imgs/foto2.png' 
                     nombre='NUMBER BLOCKS' 
                     descripcion='Diseñamos una interfaz interactiva basada en los personajes de Numberblocks, enfocada en mejorar la experiencia digital de niños en edad preescolar. Aplicamos principios de UX para lograr una navegación simple, visual y accesible, y trabajamos la UI con una estética colorida, botones grandes y personajes que guían al usuario. El proyecto combinó diseño, tecnología y educación para crear una experiencia lúdica e intuitiva.' 
-                    lenguajes='[...,...]' />
+                    lenguajes={['HTML', 'CSS', 'Javascript']}  />
+                    
                     <CardProyecto 
-                    img='../../public/imgs/foto2.png' 
-                    nombre='NUMBER BLOCKS' 
-                    descripcion='Diseñamos una interfaz interactiva basada en los personajes de Numberblocks, enfocada en mejorar la experiencia digital de niños en edad preescolar. Aplicamos principios de UX para lograr una navegación simple, visual y accesible, y trabajamos la UI con una estética colorida, botones grandes y personajes que guían al usuario. El proyecto combinó diseño, tecnología y educación para crear una experiencia lúdica e intuitiva.' 
-                    lenguajes='[...,...]' />
+                    img='../../public/imgs/foto1.png' 
+                    nombre='to do list' 
+                    descripcion='Desarrollé una aplicación web de ToDo List con sistema de registro e inicio de sesión, orientada a mejorar la organización personal de cada usuario. Implementé una base de datos relacional para almacenar tareas vinculadas a usuarios registrados, asegurando una gestión individualizada. Apliqué principios de usabilidad para lograr una experiencia clara y funcional, con una interfaz simple, botones visibles y navegación fluida. El proyecto combinó desarrollo backend y frontend para crear una herramienta práctica, segura y accesible.' 
+                    lenguajes={['html', 'css', 'php', 'phpMyAdmin',  ]} />
+                    
                     <CardProyecto 
-                    img='../../public/imgs/foto2.png' 
-                    nombre='NUMBER BLOCKS' 
-                    descripcion='Diseñamos una interfaz interactiva basada en los personajes de Numberblocks, enfocada en mejorar la experiencia digital de niños en edad preescolar. Aplicamos principios de UX para lograr una navegación simple, visual y accesible, y trabajamos la UI con una estética colorida, botones grandes y personajes que guían al usuario. El proyecto combinó diseño, tecnología y educación para crear una experiencia lúdica e intuitiva.' 
-                    lenguajes='[...,...]' />
+                    img='../../public/imgs/foto3.png' 
+                    nombre='HAND-SERVO-MOTOR' 
+                    descripcion='Desarrollamos un sistema interactivo utilizando visión por computadora con OpenCV y Python. El sistema detecta gestos de la mano a través de una cámara web y los utiliza para controlar un servomotor en tiempo real. Además, permite generar respuestas dinámicas, como un saludo en pantalla, mejorando la interacción y la experiencia del usuario.' 
+                    lenguajes={['Arduino', 'Python']} />
+
                 </div>
 
             </div>

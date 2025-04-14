@@ -5,6 +5,16 @@
     margin-bottom: 10vh;
 }
 
+.header .nav a {
+    color: #fff;
+    transition: .3s;
+}
+
+.header .nav a:hover {
+    color: #ff4444;
+    transition: .3s;
+}
+
 .header .nav ul {
     width: 100%;
     display: flex;
