@@ -1,4 +1,4 @@
-import './styles/Proyectos.css'
+import '../styles/Proyectos.css'
 import CardProyecto from './CardProyecto'
 
 const Proyectos = () => {
