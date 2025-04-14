@@ -13,7 +13,7 @@ const Proyectos = () => {
                 <div className="contenedor-proyectos">
                     
                     <a target='_blank' href="https://github.com/NicoGGomez/INTERFACES-2024"><CardProyecto 
-                    img='/public/imgs/foto2.png' 
+                    img='../imgs/foto2.png' 
                     nombre='NUMBER BLOCKS' 
                     descripcion='Diseñamos una interfaz interactiva basada en los personajes de Numberblocks, enfocada en mejorar la experiencia digital de niños en edad preescolar. Aplicamos principios de UX para lograr una navegación simple, visual y accesible, y trabajamos la UI con una estética colorida, botones grandes y personajes que guían al usuario. El proyecto combinó diseño, tecnología y educación para crear una experiencia lúdica e intuitiva.' 
                     lenguajes={['HTML', 'CSS', 'Javascript']}  /></a>
@@ -25,7 +25,7 @@ const Proyectos = () => {
                     lenguajes={['HTML', 'CSS', 'PHP', 'PhpMyAdmin',  ]} /></a>
                     
                     <a target='_blank' href="https://github.com/NicoGGomez/HandServoControl-"><CardProyecto 
-                    img='/public/imgs/foto3.png' 
+                    img='../imgs/foto3.png' 
                     nombre='HAND-SERVO-MOTOR' 
                     descripcion='Desarrollamos un sistema interactivo utilizando visión por computadora con OpenCV y Python. El sistema detecta gestos de la mano a través de una cámara web y los utiliza para controlar un servomotor en tiempo real. Además, permite generar respuestas dinámicas, como un saludo en pantalla, mejorando la interacción y la experiencia del usuario.' 
                     lenguajes={['Arduino', 'Python']} /></a>
