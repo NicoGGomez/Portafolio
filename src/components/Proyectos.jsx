@@ -19,7 +19,7 @@ const Proyectos = () => {
                     lenguajes={['HTML', 'CSS', 'Javascript']}  /></a>
                     
                     <a target='_blank' href="https://github.com/NicoGGomez/To-doList"><CardProyecto 
-                    img='/public/imgs/foto1.png' 
+                    img='../imgs/foto1.png' 
                     nombre='TO DO LIST' 
                     descripcion='Desarrollé una aplicación web de ToDo List con sistema de registro e inicio de sesión, orientada a mejorar la organización personal de cada usuario. Implementé una base de datos relacional para almacenar tareas vinculadas a usuarios registrados, asegurando una gestión individualizada. Apliqué principios de usabilidad para lograr una experiencia clara y funcional, con una interfaz simple, botones visibles y navegación fluida. El proyecto combinó desarrollo backend y frontend para crear una herramienta práctica, segura y accesible.' 
                     lenguajes={['HTML', 'CSS', 'PHP', 'PhpMyAdmin',  ]} /></a>
