@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoon } from '@fortawesome/free-solid-svg-icons';
 
 
-const Header = ({ onAboutClick, onProyectosClick, onExperienciaClick, onEducacionClick }) => {
+const Header = ({ onAboutClick, onProyectosClick, onExperienciaClick, onEducacionClick, onTecnoclogiasClick }) => {
 
     const [darkMode, setDarkMode] = useState(true)
     const [scrolled, setScrolled] = useState(false);
@@ -39,6 +39,7 @@ const Header = ({ onAboutClick, onProyectosClick, onExperienciaClick, onEducacio
                     <li><button onClick={onExperienciaClick}>Experiencia 🦾</button>
                     </li>
                     <li><button onClick={onEducacionClick}>Educación ✏️</button></li>
+                    <li><button onClick={onEducacionClick}>Stack 🔧</button></li>
                     <li><button onClick={() => setDarkMode(!darkMode)}><FontAwesomeIcon title='GitHub' className='icon  github-icon' icon={faMoon} size="1x" /></button></li>
                 </ul>
             </nav>

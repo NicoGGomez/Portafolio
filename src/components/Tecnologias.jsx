@@ -11,14 +11,14 @@ const Tecnologias = () => {
             </div>
             <div className="contenedor-iconos">
                 <ul>
-                    <li><FontAwesomeIcon icon={faReact} size="3x" /></li>
-                    <li><FontAwesomeIcon icon={faPhp} size="3x" /></li>
-                    <li><FontAwesomeIcon icon={faHtml5} size="3x" /></li>
-                    <li><FontAwesomeIcon icon={faCss} size="3x" /></li>
-                    <li><FontAwesomeIcon icon={faJs} size="3x" /></li>
-                    <li><FontAwesomeIcon icon={faJava} size="3x" /></li>
-                    <li><FontAwesomeIcon icon={faFigma} size="3x" /></li>
-                    <li><FontAwesomeIcon icon={faGit} size="3x" /></li>
+                    <li><FontAwesomeIcon title='react' icon={faReact} size="3x" /></li>
+                    <li><FontAwesomeIcon title='php' icon={faPhp} size="3x" /></li>
+                    <li><FontAwesomeIcon title='html' icon={faHtml5} size="3x" /></li>
+                    <li><FontAwesomeIcon title='css' icon={faCss} size="3x" /></li>
+                    <li><FontAwesomeIcon title='css' icon={faJs} size="3x" /></li>
+                    <li><FontAwesomeIcon title='java' icon={faJava} size="3x" /></li>
+                    <li><FontAwesomeIcon title='figma' icon={faFigma} size="3x" /></li>
+                    <li><FontAwesomeIcon title='git' icon={faGit} size="3x" /></li>
                 </ul>
             </div>
         </section>

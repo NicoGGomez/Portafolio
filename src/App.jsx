@@ -27,6 +27,7 @@ function App() {
         onProyectosClick={() => scrollTo(proyectosRef)}
         onExperienciaClick={() => scrollTo(experienciaRef)}
         onEducacionClick={() => scrollTo(educacionRef)}
+        onTeconloias={() => scrollTo(tecnologiasRef)}
       />
       <div ref={aboutRef}><AboutMe /></div>
       <div ref={proyectosRef}><Proyectos /></div>
