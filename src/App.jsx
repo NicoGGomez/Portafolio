@@ -5,6 +5,7 @@ import AboutMe from '../src/components/AboutMe'
 import Proyectos from './components/Proyectos'
 import Educacion from './components/Educacion'
 import Experiencia from './components/Experiencia'
+import Tecnologias from './components/Tecnologias'
 import './styles/App.css'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
   const proyectosRef = useRef(null)
   const experienciaRef = useRef(null)
   const educacionRef = useRef(null)
+  const tecnologiasRef = useRef(null)
 
   const scrollTo = (ref) => {
     ref.current?.scrollIntoView({ behavior: 'smooth' })
@@ -29,6 +31,7 @@ function App() {
       <div ref={aboutRef}><AboutMe /></div>
       <div ref={proyectosRef}><Proyectos /></div>
       <div ref={experienciaRef}><Experiencia /></div>
+      <div ref={tecnologiasRef}><Tecnologias/></div>
       <div ref={educacionRef}><Educacion /></div>
     </>
   )

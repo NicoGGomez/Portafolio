@@ -1,0 +1,17 @@
+.contenedor-iconos {
+    margin-bottom: 10vh;
+}
+
+.contenedor-iconos ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor-iconos ul li {
+    list-style: none;
+    margin: 1vh;
+}
+
+.contenedor-iconos ul li i {
+    width: 5vh;
+}
