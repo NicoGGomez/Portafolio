@@ -1,16 +1,22 @@
 .contenedor-general-about-me {
     display: flex;
     justify-content: space-around;
+    overflow: hidden;
 }
 
 .contenedor-general-about-me img {
-    float: left;
-    display: flex;
-    width: 30%;
-    height: 30%;
     border-radius: 50%;
+    object-fit:cover;
     margin-right: 5vh;
-    object-fit: cover;
+    min-width: 200px;
+    max-width: 300px;
+    height: min-content;
+}
+
+.contenedor-informacion-about-me {
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
 }
 
 .texto-about-me h1{
@@ -18,6 +24,7 @@
 }
 
 .texto-about-me{
+    flex: 1;
     margin-top: 4vh;
     width: 100%;
     display: flex;
@@ -29,7 +36,7 @@
 }
 
 .texto-about-me .titulo-about-me {
-    margin-bottom: 2vh;
+    margin-bottom: 4vh;
     align-self: start;
 }
 
@@ -52,4 +59,22 @@
 .zona-de-contacto .icon:hover {
     color: #ff4444;
     transition: .3s;
+}
+
+@media (max-width: 768px) {
+    .contenedor-informacion-about-me {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .texto-about-me {
+        align-items: center;
+        text-align: center;
+    }
+
+    .zona-de-contacto {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2vh;
+    }
 }
