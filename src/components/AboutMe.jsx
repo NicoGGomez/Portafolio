@@ -11,7 +11,7 @@ const AboutMe = () => {
     return (
         <div className="contenedor contenedor-general-about-me">
 
-            <img src="../imgs/fotoPerfil.png" alt="Foto de perfil" />
+            <img src="../imgs/fotoPerfil.png" alt="Foto perfil" />
 
             <div className="contenedor-informacion-about-me">
             <div className="texto-about-me">
