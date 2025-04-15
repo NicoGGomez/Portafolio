@@ -5,11 +5,11 @@
 .contenedor-iconos ul {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .contenedor-iconos ul li {
     list-style: none;
-    margin: 1vh;
 }
 
 .contenedor-iconos ul li i {
