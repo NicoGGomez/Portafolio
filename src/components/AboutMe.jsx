@@ -37,7 +37,7 @@ const AboutMe = () => {
                         <li><a href="https://wa.me/5492494494850" target='_blank'>
                             <FontAwesomeIcon title='WhatsApp' className='icon  whatsapp-icon' icon={faWhatsapp} size="3x" />
                         </a></li>
-                        <li><a href="https://drive.google.com/file/d/1eQQ-HUVhi-GmS064RowK5GPLa0GUrH3i/view?usp=sharing" target='_blank'>
+                        <li><a href="https://drive.google.com/file/d/1nMaABMvKtMtZG0GMgfLAzf-elugyCUEA/view?usp=sharing" target='_blank'>
                             <FontAwesomeIcon title='CV' className='icon cv-icon' icon={faFile} size="3x" />
                         </a></li>
                     </ul>
