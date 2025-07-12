@@ -1,4 +1,6 @@
 .card-proyecto {
+    display: flex;
+    flex-direction: column;
     width: 45vh;
     min-height: 100vh;
     border: 1px solid var(--border-color);
@@ -24,6 +26,7 @@
 
 .contenedor-info {
     display: flex;
+    flex: 1;
     height: 100%;
     flex-direction: column;
     justify-content: space-between;

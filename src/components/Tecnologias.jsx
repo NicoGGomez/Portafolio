@@ -1,6 +1,6 @@
 import '../styles/Tecnologias.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCss, faFigma, faGit, faHtml5, faJava, faJs, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faAngular, faCss, faFigma, faGit, faHtml5, faJava, faJs, faReact } from '@fortawesome/free-brands-svg-icons';
 import { faPhp } from '@fortawesome/free-brands-svg-icons';
 
 const Tecnologias = () => {
@@ -11,6 +11,7 @@ const Tecnologias = () => {
             </div>
             <div className="contenedor-iconos">
                 <ul>
+                    <li><FontAwesomeIcon title='angular' icon={faAngular} size="3x" /></li>
                     <li><FontAwesomeIcon title='react' icon={faReact} size="3x" /></li>
                     <li><FontAwesomeIcon title='php' icon={faPhp} size="3x" /></li>
                     <li><FontAwesomeIcon title='html' icon={faHtml5} size="3x" /></li>

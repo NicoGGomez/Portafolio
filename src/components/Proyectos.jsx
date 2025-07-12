@@ -11,6 +11,12 @@ const Proyectos = () => {
                 </div>
 
                 <div className="contenedor-proyectos">
+
+                    <a target='_blank' href="https://github.com/NicoGGomez/Lupulo-Libre"><CardProyecto 
+                    img='../imgs/foto4.png' 
+                    nombre='LÚPULO LIBRE' 
+                    descripcion='Desarrolle Lúpulo Libre, una aplicación web interactiva centrada en la gestión y exploración de cervezas artesanales. Aplicamos principios de diseño UX/UI para ofrecer una navegación clara, intuitiva y visualmente atractiva, integrando una interfaz moderna con secciones bien definidas para usuarios y administradores. La experiencia incluye una vista general del catálogo, formularios de contacto, y un panel exclusivo para admins con funcionalidades de gestión de productos. El proyecto combina desarrollo frontend con Angular y diseño enfocado en la usabilidad para brindar una experiencia accesible y eficiente.' 
+                    lenguajes={['Angular', 'TypeScript' , 'CSS']}  /></a>
                     
                     <a target='_blank' href="https://github.com/NicoGGomez/INTERFACES-2024"><CardProyecto 
                     img='../imgs/foto2.png' 

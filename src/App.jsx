@@ -30,8 +30,8 @@ function App() {
         onTeconloias={() => scrollTo(tecnologiasRef)}
       />
       <div ref={aboutRef}><AboutMe /></div>
-      <div ref={proyectosRef}><Proyectos /></div>
       <div ref={experienciaRef}><Experiencia /></div>
+      <div ref={proyectosRef}><Proyectos /></div>
       <div ref={tecnologiasRef}><Tecnologias/></div>
       <div ref={educacionRef}><Educacion /></div>
     </>
