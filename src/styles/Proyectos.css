@@ -6,8 +6,17 @@
     margin-bottom: 10vh;
 }
 
-.contenedor-proyectos {
+/* .contenedor-proyectos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+} */
+
+.contenedor-proyectos {
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    justify-content: center;
+    gap: 20px;
+
+    
 }

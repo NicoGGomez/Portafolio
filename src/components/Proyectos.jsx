@@ -12,6 +12,18 @@ const Proyectos = () => {
 
                 <div className="contenedor-proyectos">
 
+                    <a target='_blank' href="https://nicoggomez.github.io/TPE-INTERFACES/Segunda-entrega/index.html"><CardProyecto 
+                    img='../imgs/foto5.png' 
+                    nombre='Galaxy games' 
+                    descripcion='Desarrolle Lúpulo Libre, una aplicación web interactiva centrada en la gestión y exploración de cervezas artesanales. Aplicamos principios de diseño UX/UI para ofrecer una navegación clara, intuitiva y visualmente atractiva, integrando una interfaz moderna con secciones bien definidas para usuarios y administradores. La experiencia incluye una vista general del catálogo, formularios de contacto, y un panel exclusivo para admins con funcionalidades de gestión de productos. El proyecto combina desarrollo frontend con Angular y diseño enfocado en la usabilidad para brindar una experiencia accesible y eficiente.' 
+                    lenguajes={['Javascript', 'HTML' , 'CSS']}  /></a>
+
+                    <a target='_blank' href="https://github.com/NicoGGomez/Lupulo-Libre"><CardProyecto 
+                    img='../imgs/foto6.png' 
+                    nombre='Buscador de peliculas' 
+                    descripcion='Desarrolle Lúpulo Libre, una aplicación web interactiva centrada en la gestión y exploración de cervezas artesanales. Aplicamos principios de diseño UX/UI para ofrecer una navegación clara, intuitiva y visualmente atractiva, integrando una interfaz moderna con secciones bien definidas para usuarios y administradores. La experiencia incluye una vista general del catálogo, formularios de contacto, y un panel exclusivo para admins con funcionalidades de gestión de productos. El proyecto combina desarrollo frontend con Angular y diseño enfocado en la usabilidad para brindar una experiencia accesible y eficiente.' 
+                    lenguajes={['React', 'HTML' , 'CSS']}  /></a>
+
                     <a target='_blank' href="https://github.com/NicoGGomez/Lupulo-Libre"><CardProyecto 
                     img='../imgs/foto4.png' 
                     nombre='LÚPULO LIBRE' 

@@ -1,6 +1,6 @@
 import '../styles/Tecnologias.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngular, faCss, faFigma, faGit, faHtml5, faJava, faJs, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faAngular, faCss, faFigma, faGit, faHtml5, faJava, faJs, faPython, faReact } from '@fortawesome/free-brands-svg-icons';
 import { faPhp } from '@fortawesome/free-brands-svg-icons';
 
 const Tecnologias = () => {
@@ -20,6 +20,7 @@ const Tecnologias = () => {
                     <li><FontAwesomeIcon title='java' icon={faJava} size="3x" /></li>
                     <li><FontAwesomeIcon title='figma' icon={faFigma} size="3x" /></li>
                     <li><FontAwesomeIcon title='git' icon={faGit} size="3x" /></li>
+                    <li><FontAwesomeIcon title='python' icon={faPython} size="3x" /></li>
                 </ul>
             </div>
         </section>

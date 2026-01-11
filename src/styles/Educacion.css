@@ -4,6 +4,7 @@
     justify-content: center;
 }
 
-.contenedor-card .Card {
+.contenedor-card .card {
     margin: 5vh;
+    height: 20vh;
 }
