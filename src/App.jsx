@@ -23,16 +23,16 @@ function App() {
   return (
     <>
       <Header 
-        onAboutClick={() => scrollTo(aboutRef)}
-        onProyectosClick={() => scrollTo(proyectosRef)}
-        onExperienciaClick={() => scrollTo(experienciaRef)}
-        onEducacionClick={() => scrollTo(educacionRef)}
-        onTeconloias={() => scrollTo(tecnologiasRef)}
+        onAboutClick ={() => scrollTo(aboutRef)}
+        onProyectosClick ={() => scrollTo(proyectosRef)}
+        onExperienciaClick ={() => scrollTo(experienciaRef)}
+        onEducacionClick ={() => scrollTo(educacionRef)}
+        onTecnologiasClick ={() => scrollTo(tecnologiasRef)}
       />
       <div ref={aboutRef}><AboutMe /></div>
       <div ref={experienciaRef}><Experiencia /></div>
       <div ref={proyectosRef}><Proyectos /></div>
-      <div ref={tecnologiasRef}><Tecnologias/></div>
+      <div ref={tecnologiasRef}><Tecnologias /></div>
       <div ref={educacionRef}><Educacion /></div>
     </>
   )

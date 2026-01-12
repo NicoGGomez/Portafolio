@@ -12,7 +12,7 @@ const Educacion = () => {
 
                 <div className="contenedor-card"> 
 
-                <a href="https://drive.google.com/file/d/1bKn2vodQIZAttXgpuI7fRA2QSO3dwHcv/view?usp=sharing"><CardEducacion 
+                <a href="https://drive.google.com/file/d/1bKn2vodQIZAttXgpuI7fRA2QSO3dwHcv/view?usp=sharing" target='_blank'><CardEducacion 
                 className='card'
                 nombreInstitucion='Comercio' 
                 titulo='Bachiller con Orientación en Comunicación' 
@@ -26,14 +26,14 @@ const Educacion = () => {
                 anio='2023 - En progreso' 
                 />
 
-                <a href="https://drive.google.com/file/d/1eOdd4lyx9nX7GpIommG0YrrFWm7N9GjN/view?usp=sharing"><CardEducacion 
+                <a href="https://drive.google.com/file/d/1eOdd4lyx9nX7GpIommG0YrrFWm7N9GjN/view?usp=sharing" target='_blank'><CardEducacion 
                 className='card'
                 nombreInstitucion='Municipio de tandil' 
                 titulo='Introducción a la Robótica' 
                 anio='2024 - 2025' 
                 /></a>
 
-                <a href='https://drive.google.com/file/d/1ouCqhgGPOezWtWIS2WwQoLEA4XBynzqG/view?usp=sharing'><CardEducacion 
+                <a href='https://drive.google.com/file/d/1ouCqhgGPOezWtWIS2WwQoLEA4XBynzqG/view?usp=sharing' target='_blank'><CardEducacion 
                 className='card'
                 nombreInstitucion='Samsung innovation campus' 
                 titulo='Curso de inteligencia artificial' 
