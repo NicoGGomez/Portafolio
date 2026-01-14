@@ -11,16 +11,16 @@ const Tecnologias = () => {
             </div>
             <div className="contenedor-iconos">
                 <ul>
-                    <li><FontAwesomeIcon title='angular' icon={faAngular} size="3x" /></li>
-                    <li><FontAwesomeIcon title='react' icon={faReact} size="3x" /></li>
-                    <li><FontAwesomeIcon title='php' icon={faPhp} size="3x" /></li>
-                    <li><FontAwesomeIcon title='html' icon={faHtml5} size="3x" /></li>
-                    <li><FontAwesomeIcon title='css' icon={faCss} size="3x" /></li>
-                    <li><FontAwesomeIcon title='css' icon={faJs} size="3x" /></li>
-                    <li><FontAwesomeIcon title='java' icon={faJava} size="3x" /></li>
-                    <li><FontAwesomeIcon title='figma' icon={faFigma} size="3x" /></li>
-                    <li><FontAwesomeIcon title='git' icon={faGit} size="3x" /></li>
-                    <li><FontAwesomeIcon title='python' icon={faPython} size="3x" /></li>
+                    <li><FontAwesomeIcon title='angular' icon={faAngular} size="4x" /></li>
+                    <li><FontAwesomeIcon title='react' icon={faReact} size="4x" /></li>
+                    <li><FontAwesomeIcon title='php' icon={faPhp} size="4x" /></li>
+                    <li><FontAwesomeIcon title='html' icon={faHtml5} size="4x" /></li>
+                    <li><FontAwesomeIcon title='css' icon={faCss} size="4x" /></li>
+                    <li><FontAwesomeIcon title='css' icon={faJs} size="4x" /></li>
+                    <li><FontAwesomeIcon title='java' icon={faJava} size="4x" /></li>
+                    <li><FontAwesomeIcon title='figma' icon={faFigma} size="4x" /></li>
+                    <li><FontAwesomeIcon title='git' icon={faGit} size="4x" /></li>
+                    <li><FontAwesomeIcon title='python' icon={faPython} size="4x" /></li>
                 </ul>
             </div>
         </section>

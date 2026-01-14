@@ -3,7 +3,7 @@
     justify-content: space-around;
     overflow: hidden;
 
-    background: rgba(255, 255, 255, 0.15);
+    background: var(--bg-color);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 
@@ -41,7 +41,7 @@
     color: var(--text-color);
     text-align: left;
     line-height: 1.5;
-
+    font-size: 20px;
 }
 
 .texto-about-me .titulo-about-me {
