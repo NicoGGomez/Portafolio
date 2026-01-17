@@ -6,12 +6,16 @@
 .contenedor-iconos {
     margin: 10vh 0 10vh 0;
     margin-bottom: 10vh;
+    
 }
 
 .contenedor-iconos ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .contenedor-iconos ul li {
