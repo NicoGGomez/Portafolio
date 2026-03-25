@@ -12,6 +12,18 @@ const Proyectos = () => {
 
                 <div className="contenedor-proyectos">
 
+                    <a target='_blank' href="https://clubchicasprogramadorasquiz.netlify.app/"><CardProyecto 
+                    img='../imgs/foto7.png' 
+                    nombre='Quiz chicas programadoras' 
+                    descripcion='Desarrollé un quiz interactivo orientado a chicas interesadas en programación, enfocado en brindar recomendaciones personalizadas de cursos según sus intereses y respuestas. La aplicación guía al usuario mediante una serie de preguntas dinámicas, analizando sus elecciones para sugerir el camino de aprendizaje más adecuado. Se aplicaron principios de UX/UI para lograr una experiencia clara, inclusiva y atractiva, con una interfaz intuitiva y fluida. El proyecto combina desarrollo frontend con JavaScript, HTML y CSS, implementando lógica condicional y manejo de estados para procesar resultados en tiempo real. Está orientado a facilitar la toma de decisiones y acompañar a nuevas programadoras en sus primeros pasos dentro del mundo IT.' 
+                    lenguajes={['Javascript', 'HTML' , 'CSS']}  /></a>
+
+                    <a target='_blank' href="https://noproc.netlify.app/"><CardProyecto 
+                    img='../imgs/foto8.png' 
+                    nombre='NoProc' 
+                    descripcion='Desarrollé NoProc, un agente web interactivo enfocado en combatir la procrastinación mediante una experiencia conversacional guiada por voz. La aplicación utiliza audios generados dinámicamente para acompañar al usuario paso a paso, incentivando la acción y la continuidad en tareas. Se aplicaron principios de UX/UI para lograr una interacción fluida, clara y atractiva, combinando una interfaz minimalista con un sistema de estados que simula un diálogo en tiempo real. La solución integra desarrollo frontend en JavaScript con un backend en Node.js para la generación de audio, optimizando la carga y reproducción mediante manejo asincrónico y cacheo. El proyecto está orientado a brindar una experiencia inmersiva, motivacional y eficiente.' 
+                    lenguajes={['Node', 'Javascript' , 'CSS', 'API']}  /></a>
+
                     <a target='_blank' href="https://nicoggomez.github.io/TPE-INTERFACES/Segunda-entrega/index.html"><CardProyecto 
                     img='../imgs/foto5.png' 
                     nombre='Galaxy games' 
