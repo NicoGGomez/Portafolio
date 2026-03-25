@@ -2,10 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
-}
+    align-items: stretch;
+    gap: 2vh;
 
-.contenedor-card .card {
-    margin: 5vh;
-    height: 20vh;
 }

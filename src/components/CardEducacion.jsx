@@ -6,8 +6,8 @@ const CardEducacion = ({nombreInstitucion, titulo, anio}) => {
             <div className="contenedor-info-educacion">
                 <h3>{titulo}</h3>
                 <p>{nombreInstitucion}</p>
-                </div>
-                <p>{anio}</p>
+            </div>
+            <p>{anio}</p>
         </div>
     )
 }
