@@ -31,3 +31,9 @@
     transform: scale(1.02);
     transition: all 0.3s ease;
 }
+
+.contenedor-listas-conocimientos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vh;
+}
