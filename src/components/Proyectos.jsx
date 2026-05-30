@@ -12,10 +12,17 @@ const Proyectos = () => {
 
                 <div className="contenedor-proyectos">
 
+                    <a target='_blank' href="https://github.com/NicoGGomez/EduBot"><CardProyecto 
+                    img='../imgs/foto9.png' 
+                    nombre='EduBot' 
+                    descripcion='Diseñé un quiz interactivo orientado a chicas interesadas en programación, enfocado en brindar recomendaciones personalizadas de cursos según sus intereses y respuestas. La aplicación guía al usuario mediante una serie de preguntas dinámicas, analizando sus elecciones para sugerir el camino de aprendizaje más adecuado. Se aplicaron principios de UX/UI para lograr una experiencia clara, inclusiva y atractiva, con una interfaz intuitiva y fluida. El proyecto combina desarrollo frontend con JavaScript, HTML y CSS, implementando lógica condicional y manejo de estados para procesar resultados en tiempo real. Está orientado a facilitar la toma de decisiones y acompañar a nuevas programadoras en sus primeros pasos dentro del mundo IT.' 
+                    lenguajes={['Python', 'Groq API']}  /></a>
+
                     <a target='_blank' href="https://clubchicasprogramadorasquiz.netlify.app/"><CardProyecto 
                     img='../imgs/foto7.png' 
                     nombre='Quiz chicas programadoras' 
-                    descripcion='Diseñé un quiz interactivo orientado a chicas interesadas en programación, enfocado en brindar recomendaciones personalizadas de cursos según sus intereses y respuestas. La aplicación guía al usuario mediante una serie de preguntas dinámicas, analizando sus elecciones para sugerir el camino de aprendizaje más adecuado. Se aplicaron principios de UX/UI para lograr una experiencia clara, inclusiva y atractiva, con una interfaz intuitiva y fluida. El proyecto combina desarrollo frontend con JavaScript, HTML y CSS, implementando lógica condicional y manejo de estados para procesar resultados en tiempo real. Está orientado a facilitar la toma de decisiones y acompañar a nuevas programadoras en sus primeros pasos dentro del mundo IT.' 
+                    descripcion='Desarrollé EduBot, un asistente educativo inteligente para Telegram orientado a estudiantes de nivel primario. La aplicación combina técnicas de Procesamiento de Lenguaje Natural (NLP), análisis de imágenes, reconocimiento de voz y análisis de sentimientos para brindar apoyo educativo personalizado en distintas materias. Implementé una arquitectura basada en Programación Orientada a Objetos (POO), organizando el sistema en módulos especializados para el procesamiento de texto, imágenes, audios y emociones. El proyecto integra modelos de inteligencia artificial de Groq y Hugging Face junto con la API de Telegram, permitiendo interpretar distintos tipos de contenido y generar respuestas adaptadas al contexto del usuario. EduBot fue desarrollado con Python y tecnologías de IA modernas, con el objetivo de acercar herramientas inteligentes al aprendizaje infantil mediante una experiencia interactiva, accesible y educativa.
+                    ' 
                     lenguajes={['Javascript', 'HTML' , 'CSS']}  /></a>
 
                     <a target='_blank' href="https://noproc.netlify.app/"><CardProyecto 
